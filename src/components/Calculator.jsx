@@ -1,5 +1,5 @@
 import Button from "./Button";
-const Caculator = ()=>{
+const Calculator = ()=>{
     return(
         <div>
         <form action="" className="caculatorParent">
@@ -16,4 +16,4 @@ const Caculator = ()=>{
     )
 }
 
-export default Caculator;
+export default Calculator;
