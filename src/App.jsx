@@ -1,11 +1,9 @@
-import { useState } from 'react'
+import Calculator from './components/Calculator.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
       <div className="container">
-        <h1>hello World</h1>
+<Calculator/>
       </div>
     
   )
