@@ -6,35 +6,22 @@
 
 .container {
   display: flex;
-  justify-content: center;
-  height: 100vh;
-  align-items: center;
+  flex-direction: column;
+  width: 35%;
+  margin: 10px 20px;
 }
 
-.caculation {
-  width: 160%;
-  background: rgba(123, 119, 119, 0.63);
-  height: 60px;
-  color: #fff;
-  font-size: 20px;
+.result {
+  grid-column: span 4;
   display: flex;
-  justify-content: space-between;
-}
-
-.caculation input {
-  border: none;
-  background: none;
-}
-
-.caculation p {
-  align-self: center;
-  padding: 0 5px;
-  font-size: 35px;
+  justify-content: flex-end;
+  background-color: #858694;
+  color: #fff;
 }
 
 /* Buttons  */
 
-.btns {
+.buttons {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2px;
@@ -44,7 +31,7 @@
   width: 160%;
 }
 
-.btns button {
+button {
   border: #d0d0d0;
   height: 50px;
 }
