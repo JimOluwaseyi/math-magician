@@ -1,10 +1,45 @@
-*{
+* {
   padding: 0;
-  margin :0;
+  margin: 0;
   box-sizing: border-box;
 }
 
-.container{
+.container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  width: 35%;
+  margin: 10px 20px;
+}
+
+.result {
+  grid-column: span 4;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #858694;
+  color: #fff;
+}
+
+/* Buttons  */
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2px;
+  padding: 10px;
+  background-color: #e0e0e0;
+  color: #010100;
+  width: 160%;
+}
+
+button {
+  border: #d0d0d0;
+  height: 50px;
+}
+
+.operator {
+  background-color: orange;
+}
+
+.zero {
+  grid-column: span 2;
 }
