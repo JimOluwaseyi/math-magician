@@ -47,3 +47,58 @@ button {
 .quotes {
   word-wrap: break-word;
 }
+
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 10px 30px;
+}
+
+.home h2 {
+  margin-top: 20px;
+}
+
+.home p {
+  font-size: 22px;
+}
+
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  background-color: #eee;
+  height: 10vh;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+nav {
+  display: flex;
+  gap: 50px;
+}
+
+.links {
+  text-decoration: none;
+  color: #1d1d1d;
+  font-size: 25px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.links:hover {
+  color: #5e5e5e;
+}
+
+.quotes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px;
+  font-size: 25px;
+}
