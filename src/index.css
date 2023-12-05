@@ -1,10 +1,99 @@
-*{
+* {
   padding: 0;
-  margin :0;
+  margin: 0;
   box-sizing: border-box;
 }
 
-.container{
+.container {
   display: flex;
+  flex-direction: column;
+  width: 35%;
+  margin: 10px 20px;
+}
+
+.result {
+  grid-column: span 4;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #858694;
+  color: #fff;
+}
+
+/* Buttons  */
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2px;
+  padding: 10px;
+  background-color: #e0e0e0;
+  color: #010100;
+  width: 160%;
+}
+
+button {
+  border: #d0d0d0;
+  height: 50px;
+}
+
+.operator {
+  background-color: orange;
+}
+
+.zero {
+  grid-column: span 2;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 10px 30px;
+}
+
+.home h2 {
+  margin-top: 20px;
+}
+
+.home p {
+  font-size: 22px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  background-color: #eee;
+  height: 10vh;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+nav {
+  display: flex;
+  gap: 50px;
+}
+
+.links {
+  text-decoration: none;
+  color: #1d1d1d;
+  font-size: 25px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.links:hover {
+  color: #5e5e5e;
+}
+
+.quotes {
+  display: flex;
+  align-items: center;
   justify-content: center;
+  margin: 100px;
+  font-size: 25px;
 }
